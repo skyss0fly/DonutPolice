@@ -22,7 +22,7 @@ $player = $event->getPlayer();
   $item = $player->getInventory()->getItem();
   $enchatmentlevel = $item->getEnchantments()->getLevels();
   
-  if ($world === $ignore && $enchatmentlevel <== $maxlevel){
+  if ($world === $ignore && $enchatmentlevel <= $maxlevel){
     // noop
     // if world is an ignore then ignore 
     return false;
