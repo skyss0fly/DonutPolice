@@ -24,14 +24,16 @@ $player = $event->getPlayer();
   
   if ($world === $ignore && $enchatmentlevel <== $maxlevel){
     // noop
-    
+    // if world is an ignore then ignore 
     return false;
 }
   elseif ($world !== $ignore && $enchatmentlevel >== $maxlevel){ 
-    // NOOP
+    // NOOp
+   // if world isnt ignore but enchant is not max and is safe then ignore
     return false;
   }
   else {
+    // if world isnt ignore and enchant is max or above then policify
   $item = $player->getInventory()->setItem(VanillaItems::AIR);
     $player->sendMessage($prefix . " Your Item is Illegal, It has been removed");
     return true;
