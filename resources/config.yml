@@ -1,3 +1,8 @@
 WorldsToIgnore: 
 - "IllegalWorld"
 
+Prefix: "§l§dDonut§cPolice§a"
+
+HighestEnchantAmount: 30
+
+# if item has enchantment level above 30 its classed as illegal
