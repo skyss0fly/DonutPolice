@@ -27,7 +27,7 @@ $player = $event->getPlayer();
     // if world is an ignore then ignore 
     return false;
 }
-  elseif ($world !== $ignore && $enchatmentlevel >== $maxlevel){ 
+  elseif ($world !== $ignore && $enchatmentlevel >= $maxlevel){ 
     // NOOp
    // if world isnt ignore but enchant is not max and is safe then ignore
     return false;
