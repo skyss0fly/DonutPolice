@@ -1,6 +1,6 @@
 <?php
 
-nanespace akyss0fly\DonutPolice;
+namespace skyss0fly\DonutPolice;
 
 
 use pocektmine\{world\WorldManager, item\VanillaItems, item\enchantment\{Enchantment, EnchantmentInstance, VanillaEnchantments}, event\player\PlayerItemHeldEvent, player\Player, plugin\PluginBase, inventory\Inventory};
