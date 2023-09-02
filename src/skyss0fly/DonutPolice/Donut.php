@@ -3,7 +3,7 @@
 namespace skyss0fly\DonutPolice;
 
 
-use pocketmine\{world\WorldManager, item\VanillaItems, item\enchantment\{Enchantment, EnchantmentInstance, VanillaEnchantments}, event\player\PlayerItemHeldEvent, player\Player, plugin\PluginBase, inventory\Inventory};
+use pocketmine\{world\WorldManager, item\VanillaItems, item\enchantment\Enchantment, item\enchantment\EnchantmentInstance, item\enchantment\VanillaEnchantment, event\player\PlayerItemHeldEvent, player\Player, plugin\PluginBase, inventory\Inventory};
 
 class Donut extends PluginBase {
 
